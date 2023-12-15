@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sign-up</title>
+    <style>
+        tr{color:blue}
+    </style>
+</head>
+<body>
+    <form action="website.html" method="get">
+    <table align="center" bgcolor="lightblue">
+        <caption><b>Sign-up</b> </caption>
+        <tr align="center">
+          <td colspan="2">
+            <input type="image" name="submit_image" src="ecom2.jpg" 
+            width="200px" height="70px">
+          </td>
+        </tr>
+        <tr>
+            <td>
+             <label for="Fname">Enter First Name:</label>
+            </td>
+            <td>
+                <input type="text" name="Fname" pattern="['A-Za-z']{1,25}" placeholder="Fname" required>
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="Lname">Enter Last Name:</label>
+            </td>
+            <td>
+                <input type="text" name="Lname" pattern="['A-Za-z']{1,25}" placeholder="Lname" required>
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="Mnumber">Mobile Number:</label>
+            </td>
+            <td>
+                <input type="text"name="Mobile" pattern="[6-9]{1} 0-9]{9}" placeholder="+91">
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="dob">Date of Birth:</label>
+            </td>
+            <td>
+                <input type="date" name="DOB" >
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="dob">Email-Id:</label>
+            </td>
+            <td>
+                <input type="email" name="Email-id">
+            </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="Adrs"> Address:</label>
+            </td>
+            <td>
+                <textarea name="address" id="" cols="30" rows="10"></textarea>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city"> city:</label> </td>
+                <td>
+                <select size=1>
+                    <option value="" selected> Select City</option>
+                    <option value="Pune"> Pune</option>
+                    <option value="Mumbai"> Mumbai</option>
+                    <option value="Nashik"> Nashik</option>
+                    <option value="Nashik"> Navi Mumbai</option>
+                </select>
+                </td>
+        </tr>
+        <tr >
+            <td>
+                <label for="Gender"> Gender:</label></td>
+
+                <td>
+                <input type="Radio" name="gender" value="male" checked>
+                Male 
+                <input type="radio" name="gender" value="female">
+                Female 
+                <input type="radio" name="gender" value="Other=">
+                Other 
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><br>
+                <input type="reset" name="reset" value="Reset">
+            </td>
+        </tr>
+        <tr align="center">
+            <td colspan="2"><br>
+                <a href="website.html">
+                    <input type="submit" name="submit" value="Submit">
+                </a>
+               
+            </td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>
+

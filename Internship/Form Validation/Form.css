@@ -1,0 +1,16 @@
+body {
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .container {
+    max-width: 500px;
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  .btn-primary {
+    width: 100%;
+  }
+  
